@@ -1,13 +1,13 @@
 # Corvus plugins
 
 A plugin adds something to Corvus without waiting for a new release. These plugins need
-**Corvus 0.5.2 or later**: Corvus offers the update itself, or download it from the
-[latest release](https://github.com/Subirac/corvus-releases/releases/latest).
+**Corvus 0.5.2 or later**, and Math preview's list needs **0.5.3**: Corvus offers the update
+itself, or download it from the [latest release](https://github.com/Subirac/corvus-releases/releases/latest).
 
 | Plugin | Version | What it does |
 | --- | --- | --- |
 | [Tree lists](tree-1.0.1.zip) | 1.0.1 | Put a nested list in a `::: tree` container and it is drawn as a tree, its items joined by lines (├── └── │), in the HTML Preview and the PDF. |
-| [Math preview](math-preview-1.1.0.zip) | 1.1.0 | While the caret is inside maths, a small window shows it as the Preview will draw it, and redraws it as you type. |
+| [Math preview](math-preview-1.2.0.zip) | 1.2.0 | While the caret is inside maths, a small window shows it as the Preview will draw it, and redraws it as you type. A Maths tab lists every piece of maths in the document; Select Next/Previous Maths steps through them; Wrap Selection in $ makes maths. |
 
 ## Installing one
 
@@ -58,3 +58,10 @@ Put the caret inside maths — `$x + y$`, `$$\frac{a}{b}$$`, or an environment w
   message underneath.
 - **View ▸ Show Math Preview** switches it off and on. Give it a key in Settings ▸ Keyboard (under
   *Plugins*), or put its **Math** button on the toolbar with View ▸ Customize Toolbar.
+- A **Maths** tab in the Navigation panel lists every piece of maths in the document, drawn, with
+  its line number; click one to go to it. **Window ▸ Maths List** (⌥⌘5) shows and hides it.
+- **Edit ▸ Find ▸ Select Next Maths** (⌘⇧Y) and **Select Previous Maths** (⌥⌘⇧Y) step through
+  the maths and open the window on each.
+- **Format ▸ Wrap Selection in $** turns the selection into maths.
+- Every key can be changed in Settings ▸ Keyboard, under *Plugins*. The list and the Select
+  commands need Corvus 0.5.3; in 0.5.2 the tab says so and the rest works.
