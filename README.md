@@ -10,5 +10,8 @@ no technical steps).
 From version 0.3.0 on, Corvus checks for new versions itself and offers to update — you only
 download it once.
 
+**[Plugins](plugins/)** add features between releases — such as *Tree lists*, which draws a
+nested list as a tree. They need Corvus 0.5.1 or later.
+
 Found a bug, got confused, or wished it did something? Please tell us: reply to the message that
 brought you here, or open an [issue](https://github.com/Subirac/corvus-releases/issues).
