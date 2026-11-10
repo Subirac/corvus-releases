@@ -8,6 +8,7 @@ itself, or download it from the [latest release](https://github.com/Subirac/corv
 | --- | --- | --- |
 | [Tree lists](tree-1.0.1.zip) | 1.0.1 | Put a nested list in a `::: tree` container and it is drawn as a tree, its items joined by lines (├── └── │), in the HTML Preview and the PDF. |
 | [Math preview](math-preview-1.3.0.zip) | 1.3.0 | While the caret is inside maths, a small window shows it as the Preview will draw it, and redraws it as you type. A Maths tab lists every piece of maths in the document; Select Next/Previous Maths steps through them; Wrap Selection in $ makes maths. Its Options… set where the window opens, its size and its colours. |
+| [Smart pairs](smart-pairs-1.0.0.zip) | 1.0.0 | Type `**`, `$` or `(` and the closing is written too, with the caret between. Tab steps out past it, Shift-Tab makes room inside. The format shortcuts do the same with nothing selected. The pairs are yours: `~/.corvus/smart-pairs.txt`, one pair per line, the opening and closing text divided by a vertical bar. |
 
 ## Installing one
 
